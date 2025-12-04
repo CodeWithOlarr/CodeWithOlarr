@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">OLARR</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero fade-in">
+        <h1>Hi, I'm Olabiyi Peter</h1>
+        <p>S Front-End Developer passionate about building modern web experiences.</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <p>I'm a web developer with a focus on responsive design, performance, and clean code. I love turning ideas into reality using HTML, CSS and Javascript.</p>
+        <div class="skills fade-in">
+            <div class="fade-in">HTML</div>
+            <div class="fade-in">CSS</div>
+            <div class="fade-in">Javascript</div>
+            <div class="fade-in">React</div>
+            <div class="fade-in">Git</div>
+            <div class="fade-in">Figma</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects fade-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project fade-in">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio website built with HTML, CSS and Javascript.</p>
+            </div>
+            <div class="project fade-in">
+                <h3>Landing Page</h3>
+                <p>A clean landing page for a fictional SaaS product, focusing on layout and accessibility.</p>
+            </div>
+            <div class="project fade-in">
+                <h3>To-Do-App</h3>
+                <p>A task management app with add/edit/delete functionality using Javascript</p>
+            </div>
+            <div class="project fade-in">
+                <h3>Blog Template</h3>
+                <p>A static blog layout created with semantic HTML5 and styles with Flexbox and Grid.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Have a project in mind or just want to say Hi? Let's connect!</p>
+        <ul>
+            <li>Email: <a href="#">horlar567@gmail.com</a></li>
+            <li>Phone: +2349130491548</li>
+            <li>Location: Lagos, Nigeria</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Olabiyi Peter. All rights reserved.</p>
+    </footer>
+    <script>
+        const faders = document.querySelectorAll('.fade-in');
+
+
+        const appearOnScroll = new IntersectionObserver((entries, observer)=>{
+            entries.forEach(entry =>{
+                if (entry.isIntersecting){
+                    entry.target.classList.add('show')
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1});
+
+        faders.forEach(el => {
+            appearOnScroll.observe(el);
+        });
+    </script>
+</body>
+</html>
