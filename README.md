@@ -27,7 +27,7 @@ A modern responsive landing page for a fitness app.
 - Fully responsive design
 
 🔗 Live Demo: https://your-fitflow-link.netlify.app  
-📁 Repo: https://github.com/yourusername/fitflow
+📁 Repo: https://github.com/codewitholarr/fitflow
 
 
 
