@@ -26,14 +26,14 @@ A modern responsive landing page for a fitness app.
 - FAQ accordion
 - Fully responsive design
 
-🔗 Live Demo: https://your-fitflow-link.netlify.app  
+🔗 Live Demo: https://bejewelled-snickerdoodle-2d1cf3.netlify.app  
 📁 Repo: https://github.com/codewitholarr/fitflow
 
 
 
 ## 📫 Contact
 
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/CodeWithOlarr
 - Portfolio: (coming soon)
 
 
