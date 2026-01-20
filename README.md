@@ -1,16 +1,41 @@
-## Hi there 👋
+# 👋 Hi, I'm Olarr
 
-<!--
-**CodeWithOlarr/CodeWithOlarr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a frontend developer focused on building clean, responsive, and user-friendly web interfaces.
 
-Here are some ideas to get you started:
+I enjoy turning designs into real, functional websites using modern frontend fundamentals.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## 🚀 Tech Stack
+
+- HTML5
+- CSS3 (Flexbox, Grid)
+- JavaScript (ES6+)
+- Responsive Design
+- Git & GitHub
+
+
+## 📂 Featured Projects
+
+### 🏋️ FitFlow – Fitness Landing Page
+A modern responsive landing page for a fitness app.
+
+**Features:**
+- Responsive navigation
+- Mobile hamburger menu
+- Clean UI layout
+- FAQ accordion
+- Fully responsive design
+
+🔗 Live Demo: https://your-fitflow-link.netlify.app  
+📁 Repo: https://github.com/yourusername/fitflow
+
+
+
+## 📫 Contact
+
+- GitHub: https://github.com/yourusername
+- Portfolio: (coming soon)
+
+
+
+⭐ Thanks for visiting my profile!
