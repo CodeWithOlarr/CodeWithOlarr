@@ -1,11 +1,11 @@
-# 👋 Hi, I'm Olarr
+#  Hi, I'm Olarr
 
 I'm a frontend developer focused on building clean, responsive, and user-friendly web interfaces.
 
 I enjoy turning designs into real, functional websites using modern frontend fundamentals.
 
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3 (Flexbox, Grid)
@@ -14,9 +14,9 @@ I enjoy turning designs into real, functional websites using modern frontend fun
 - Git & GitHub
 
 
-## 📂 Featured Projects
+##  Featured Projects
 
-### 🏋️ FitFlow – Fitness Landing Page
+###  FitFlow – Fitness Landing Page
 A modern responsive landing page for a fitness app.
 
 **Features:**
@@ -26,16 +26,16 @@ A modern responsive landing page for a fitness app.
 - FAQ accordion
 - Fully responsive design
 
-🔗 Live Demo: https://bejewelled-snickerdoodle-2d1cf3.netlify.app  
-📁 Repo: https://github.com/codewitholarr/fitflow
+ Live Demo: https://bejewelled-snickerdoodle-2d1cf3.netlify.app  
+ Repo: https://github.com/codewitholarr/fitflow
 
 
 
-## 📫 Contact
+##  Contact
 
 - GitHub: https://github.com/CodeWithOlarr
 - Portfolio: (coming soon)
 
 
 
-⭐ Thanks for visiting my profile!
+Thanks for visiting my profile!
